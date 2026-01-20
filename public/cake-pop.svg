@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFAFC5"/>
+      <stop offset="100%" style="stop-color:#E88DA8"/>
+    </linearGradient>
+    <linearGradient id="stickGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D4A574"/>
+      <stop offset="100%" style="stop-color:#C4956A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Stick -->
+  <rect x="46" y="55" width="8" height="40" rx="2" fill="url(#stickGrad)"/>
+
+  <!-- Cake pop ball -->
+  <circle cx="50" cy="35" r="28" fill="url(#pinkGrad)"/>
+
+  <!-- Chocolate drizzle -->
+  <path d="M25 30 Q30 35 35 30 Q40 25 45 30 Q50 35 55 30 Q60 25 65 30 Q70 35 75 30"
+        fill="none" stroke="#8B6F5C" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Sprinkles -->
+  <rect x="32" y="22" width="6" height="2" rx="1" fill="#FFE066" transform="rotate(-30 35 23)"/>
+  <rect x="55" y="25" width="6" height="2" rx="1" fill="#A8D5E5" transform="rotate(20 58 26)"/>
+  <rect x="40" y="40" width="6" height="2" rx="1" fill="#98D8AA" transform="rotate(-15 43 41)"/>
+  <rect x="58" y="38" width="6" height="2" rx="1" fill="#FFAFC5" transform="rotate(45 61 39)"/>
+  <rect x="45" y="18" width="6" height="2" rx="1" fill="#FF9EB5" transform="rotate(10 48 19)"/>
+
+  <!-- Shine highlight -->
+  <ellipse cx="38" cy="25" rx="5" ry="3" fill="white" opacity="0.4" transform="rotate(-30 38 25)"/>
+</svg>
