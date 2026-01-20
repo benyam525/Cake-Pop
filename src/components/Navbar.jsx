@@ -39,8 +39,8 @@ export default function Navbar() {
             <span className="font-serif text-2xl text-espresso tracking-tight">
               PopShop
             </span>
-            <span className="hidden sm:inline-block h-4 w-px bg-soft-taupe" />
-            <span className="hidden sm:inline-block text-sm font-sans text-warm-brown">
+            <span className="inline-block h-4 w-px bg-soft-taupe" />
+            <span className="inline-block text-sm font-sans text-warm-brown">
               by Layla
             </span>
           </Link>
